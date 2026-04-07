@@ -1,7 +1,7 @@
 import React from 'react';
 
-const DEFAULT_LAT = 39.7587818;
-const DEFAULT_LNG = 64.4401539;
+const DEFAULT_LAT = 42.457285;
+const DEFAULT_LNG = 59.6030099;
 
 export default function MapView({ lat, lng, gpsValid }) {
     const hasCoords = lat != null && lng != null && gpsValid;
